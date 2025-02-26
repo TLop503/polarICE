@@ -1,0 +1,7 @@
+if [[ $SSH_TTY ]]; then
+	export LANG=zh_CN.UTF-8
+	export LANGUAGE=zh_CN:zh
+	export LC_ALL=zh_CN.UTF-8
+fi
+
+# add to /etc/profile, then `source /etc/profile`

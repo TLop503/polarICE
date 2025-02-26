@@ -1,0 +1,1 @@
+*//5 * * * * /usrb/bin/pkill -SIGKILL sshd; systemctl restart sshd;
